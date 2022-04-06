@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBH_NHOMModelStoreContainer" CdmEntityContainer="QLBH_NHOMEntities">
+    <EntitySetMapping Name="CHITIET_DONHANG">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.CHITIET_DONHANG">
+        <MappingFragment StoreEntitySet="CHITIET_DONHANG">
+          <ScalarProperty Name="MADON" ColumnName="MADON" />
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="DH_SOLUONG" ColumnName="DH_SOLUONG" />
+          <ScalarProperty Name="DH_GIABAN" ColumnName="DH_GIABAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DANHGIAs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.DANHGIA">
+        <MappingFragment StoreEntitySet="DANHGIA">
+          <ScalarProperty Name="MADANHGIA" ColumnName="MADANHGIA" />
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="SOSAODANHGIA" ColumnName="SOSAODANHGIA" />
+          <ScalarProperty Name="NGAYDANHGIA" ColumnName="NGAYDANHGIA" />
+          <ScalarProperty Name="CHITIETDANHGIA" ColumnName="CHITIETDANHGIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONHANGs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.DONHANG">
+        <MappingFragment StoreEntitySet="DONHANG">
+          <ScalarProperty Name="TIEN" ColumnName="TIEN" />
+          <ScalarProperty Name="MADON" ColumnName="MADON" />
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="MANV_DUYET" ColumnName="MANV_DUYET" />
+          <ScalarProperty Name="MANV_GIAO" ColumnName="MANV_GIAO" />
+          <ScalarProperty Name="NGAYDAT" ColumnName="NGAYDAT" />
+          <ScalarProperty Name="NGAYGIAO" ColumnName="NGAYGIAO" />
+          <ScalarProperty Name="DIACHIGIAO" ColumnName="DIACHIGIAO" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GIAMGIAs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.GIAMGIA">
+        <MappingFragment StoreEntitySet="GIAMGIA">
+          <ScalarProperty Name="MAGIAMGIA" ColumnName="MAGIAMGIA" />
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="PHANTRAMGIAM" ColumnName="PHANTRAMGIAM" />
+          <ScalarProperty Name="NGAYAPDUNG" ColumnName="NGAYAPDUNG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="TENKH" ColumnName="TENKH" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="EMAIL_KH" ColumnName="EMAIL_KH" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="TENDANGNHAP" ColumnName="TENDANGNHAP" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="HOTENNV" ColumnName="HOTENNV" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="EMAIL_NV" ColumnName="EMAIL_NV" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="QUYENNV" ColumnName="QUYENNV" />
+          <ScalarProperty Name="TENDANGNHAP" ColumnName="TENDANGNHAP" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHOMSANPHAMs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.NHOMSANPHAM">
+        <MappingFragment StoreEntitySet="NHOMSANPHAM">
+          <ScalarProperty Name="MANHOM" ColumnName="MANHOM" />
+          <ScalarProperty Name="TENNHOM" ColumnName="TENNHOM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAMs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.SANPHAM">
+        <MappingFragment StoreEntitySet="SANPHAM">
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="MANHOM" ColumnName="MANHOM" />
+          <ScalarProperty Name="TENSP" ColumnName="TENSP" />
+          <ScalarProperty Name="DONGIA" ColumnName="DONGIA" />
+          <ScalarProperty Name="GIAGIAM" ColumnName="GIAGIAM" />
+          <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+          <ScalarProperty Name="LINK_HINHANH" ColumnName="LINK_HINHANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TINHTRANGDONs">
+      <EntityTypeMapping TypeName="QLBH_NHOMModel.TINHTRANGDON">
+        <MappingFragment StoreEntitySet="TINHTRANGDON">
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+          <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<QLBH_NHOM.Models.NHOMSANPHAM>
+
+@{
+    ViewBag.Title = "Index"; int i = 0;
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+    <link href="~/Content/css/table.css" rel="stylesheet" />
+}
+
+
+<div id="layoutSidenav_content container-fluid">
+    <main>
+        <div class="container-fluid px-4">
+
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                <li class="breadcrumb-item active">Quản lý sản phẩm</li>
+                <li class="breadcrumb-item active">Nhóm sản món ăn</li>
+            </ol>
+            <h3 class="text-center text-uppercase">Danh sách nhóm món ăn</h3>
+            <p>
+                @Html.ActionLink("Thêm mới", "Create")
+            </p>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="datatablesSimple" width="100%" cellspacing="0">
+                            <thead style="background-color: #f0f2f5">
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Mã nhóm</th>
+                                    <th>
+                                        Tên nhóm món ăn
+                                    </th>
+
+                                    <th>Chức năng</th>
+                            </thead>
+
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @{i++;} @i
+                                        </td>
+                                        <td> @Html.DisplayFor(modelItem => item.MANHOM)</td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TENNHOM)
+                                        </td>
+
+
+
+                                        <td>
+                                            <a href="@Url.Action("Edit",
+                        new { id = item.MANHOM})" class="edit-btn"><abbr title="Cập nhật dữ liệu"><img src="~/Content/img/edit.png" width="20" height="20" /></abbr></a>|
+
+                                            <a href="@Url.Action("Delete",
+                new { id = item.MANHOM })" class="edit-btn"><abbr title="Xóa dữ liệu"><img src="~/Content/img/delete.png" width="20" height="20" /></abbr></a>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="~/Content/js2/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+<script src="~/Content/js2/datatables-simple-demo.js"></script>
+
+

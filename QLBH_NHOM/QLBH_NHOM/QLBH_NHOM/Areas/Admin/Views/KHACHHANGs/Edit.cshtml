@@ -1,0 +1,126 @@
+﻿@model QLBH_NHOM.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+
+}
+
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <div class="container-fluid px-4">
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Quản lý người dùng</li>
+            <li class="breadcrumb-item active">Khách hàng</li>
+            <li class="breadcrumb-item active">Chỉnh sửa thông tin</li>
+        </ol>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="account-settings text-center">
+                            <div class="user-profile">
+                                <div class="user-avatar">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" width="150px" alt="Maxwell Admin">
+                                </div>
+                                <h5 class="user-name mt-4">@Html.DisplayFor(model => model.MAKH)</h5>
+                                <h6 class="user-email" style="color: blue">@Html.DisplayFor(model => model.TENKH)</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(model => model.MAKH)
+                    @Html.HiddenFor(model => model.MATKHAU)
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h4 class="mb-4 text-primary text-center">THÔNG TIN CHI TIẾT</h4>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Họ tên khách hàng</label>
+                                        @Html.EditorFor(model => model.TENKH, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.TENKH, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="website">Giới tính</label>
+                                        <div class="checkbox text-center">
+                                            Nam @Html.RadioButtonFor(model => model.GIOITINH, "True", new { @checked = "checked" }) &nbsp;
+                                            Nữ @Html.RadioButtonFor(model => model.GIOITINH, "False")
+                                            @Html.ValidationMessageFor(model => model.GIOITINH, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail">Email</label>
+                                        @Html.EditorFor(model => model.EMAIL_KH, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.EMAIL_KH, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="phone">Số điện thoại</label>
+                                        @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="phone">Địa chỉ</label>
+                                        @Html.EditorFor(model => model.DIACHI, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.DIACHI, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="phone">Tên đăng nhập</label>
+                                        @Html.EditorFor(model => model.TENDANGNHAP, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.TENDANGNHAP, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="text-center">
+                                        <div class="form-group">
+                                            <div class="col-md-offset-2 col-md-10">
+
+                                                <input type="submit" value="Save" class="btn btn-primary" />&nbsp; &nbsp; &nbsp;
+                                                @Html.ActionLink("Trở về", "Index")
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+

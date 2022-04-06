@@ -1,0 +1,130 @@
+﻿
+@model QLBH_NHOM.Models.DONHANG
+
+@{
+    ViewBag.Title = "XacNhanDon";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+   
+}
+
+
+<body>
+    <div class="container-fluid px-4">
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Quản lý đơn</li>
+            <li class="breadcrumb-item active">Duyệt đơn</li>
+
+        </ol>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.MADON)
+            @Html.HiddenFor(model => model.MAKH)
+            @Html.HiddenFor(model => model.NGAYDAT)
+            @Html.HiddenFor(model => model.MANV_DUYET)
+            @Html.HiddenFor(model => model.DIACHIGIAO)
+            @Html.HiddenFor(model => model.TIEN)
+            <div class="row">
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h4 class="mb-4 text-primary text-center">XÁC NHẬN THÔNG TIN</h4>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Mã đơn hàng: </label>
+                                        @Html.EditorFor(model => model.MADON, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Tên khách hàng: </label>
+                                        @Html.EditorFor(model => model.KHACHHANG.TENKH, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Nhân viên duyệt đơn: </label>
+                                        <input  type="text" value="@Session["HoTenNV"]" disabled readonly class="form-control" />
+                                        
+                                        @*@Html.EditorFor(model => model.NHANVIEN.HOTENNV, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })*@
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Nhân viên giao:</label>
+                                        @Html.DropDownList("MANV_GIAO", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.MANV_GIAO, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Ngày đặt:</label>
+                                        @Html.EditorFor(model => model.NGAYDAT, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Ngày giao:</label>
+                                        @Html.EditorFor(model => model.NGAYGIAO, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Địa chỉ:</label>
+                                        @Html.EditorFor(model => model.DIACHIGIAO, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Thiết lập:</label>
+                                        @Html.DropDownList("TINHTRANG", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.TINHTRANG, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Tổng tiền:</label>
+                                        @Html.EditorFor(model => model.TIEN, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="form-group">
+                                        @Html.Partial("SPDAT");
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-center">
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <input type="submit" value="Lưu" class="btn btn-default" />
+                                            @Html.ActionLink("Trở về", "DuyetDon")
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+</body>
+

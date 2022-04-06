@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "NotFound";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+
+
+<div class="container-fluid">
+
+    <!-- 404 Error Text -->
+    <div class="text-center">
+        <div class="error mx-auto" data-text="404">404</div>
+        <p class="lead text-gray-800 mb-5">Page Not Found</p>
+        <p class="text-gray-500 mb-0">Không có thông tin để hiển thị</p>
+        <a href="@Url.Action("Intro", "NHANVIENs")">&larr; Trở về trang chủ</a>
+    </div>
+
+</div>
+

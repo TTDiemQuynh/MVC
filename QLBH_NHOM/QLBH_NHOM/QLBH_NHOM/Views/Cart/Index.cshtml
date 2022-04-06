@@ -1,0 +1,108 @@
+﻿@model QLBH_NHOM.Models.SANPHAM
+@*@model List<QLBH_NHOM.Models.ItemCart>*@
+
+<body>
+
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="shopping-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cart-table">
+                        @if (ShoppingCart.Cart.Count == 0)
+                        {
+                            <h2>Giỏ Hàng Trống !</h2>
+                        }
+                        else
+                        {
+                            <table>
+                                <thead>
+                                    <tr>
+
+                                        <th class="p-name">Tên</th>
+                                        <th>Ảnh</th>
+                                        <th>Giá</th>
+                                        <th>Số Lượng</th>
+                                        <td></td>
+                                        <th>Tổng</th>
+                                        <th><a href="/Cart/Clear" class="btn btn-warning"><i class="ti-close"></i> </a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var p in ShoppingCart.Cart.Items)
+                                    {
+
+                                        <tr>
+                                            <td>@p.TENSP</td>
+                                            <td width="100">
+                                                <img style="width:100%" src="~/Content/Images/@p.LINK_HINHANH" />
+                                            </td>
+
+                                            <td class="p-price first-row">
+                                                @String.Format("{0:0,0}", @p.GIAGIAM)đ
+
+                                            </td>
+                                            <td>
+                                                <input type="number" name="name" value="@p.SOLUONG" min="1" style="width:50px" data-update-cart="@p.MASP" />
+                                            </td>
+                                            <td></td>
+                                            <td class="close-td first-row">
+                                                <span>
+                                                    @String.Format("{0:0,0}", (p.SOLUONG * p.GIAGIAM))
+                                                </span>đ
+                                            </td>
+
+                                            <td class="close-td first-row" data-remove-from-cart="@p.MASP"><i class="ti-close"></i></td>
+                                        </tr>
+                                    }
+
+                                        <tr>
+                                            <th style="color:red"> Tổng Tiền:</th>
+                                            <th style="color:black">
+                                                <center>
+                                                    <span id="table-cart-amt">
+                                                        @String.Format("{0:0,0}", ShoppingCart.Cart.Amount)
+                                                       
+                                                    </span>đ
+                                                </center>
+                                            </th>
+                                        </tr>
+                                    
+                                </tbody>
+                            </table>
+
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="cart-buttons">
+                                        <a href="/Shop/Index" class="primary-btn continue-shop">Mua Sắm Thêm</a>
+                                        <a href="/Cart/Index" class="primary-btn up-cart">Cập Nhật Giỏ Hàng</a>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4 offset-lg-4">
+                                    <div class="proceed-checkout">
+                                        <a href="/Order/Checkout" class="proceed-btn">Tiến Hành Đặt Hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,432 @@
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll.config
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.pdb
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe.config
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.rsp
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe.config
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.rsp
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.AppContext.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Collections.Immutable.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Console.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Globalization.Calendars.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Http.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Sockets.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.ValueTuple.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe.config
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.rsp
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe.config
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Web.Infrastructure.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\WebGrease.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.pdb
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csprojAssemblyReference.cache
+D:\Web\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CoreCompileInputs.cache
+D:\Web\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CopyComplete
+D:\Web\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.pdb
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Interfaces.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\PagedList.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.dll
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\PagedList.xml
+D:\Web\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll.config
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.pdb
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe.config
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.rsp
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe.config
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.rsp
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.AppContext.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Collections.Immutable.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Console.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Globalization.Calendars.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Http.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Sockets.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.ValueTuple.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe.config
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.rsp
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe.config
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Web.Infrastructure.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Interfaces.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\WebGrease.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.pdb
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csprojAssemblyReference.cache
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CoreCompileInputs.cache
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CopyComplete
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.dll
+F:\Nguyen Duc Huy\PhatTrienWEB\DOAN\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.pdb
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll.config
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.pdb
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe.config
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.rsp
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe.config
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.rsp
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.AppContext.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Collections.Immutable.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Console.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Globalization.Calendars.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Http.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Sockets.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.ValueTuple.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe.config
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.rsp
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe.config
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Web.Infrastructure.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Interfaces.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\WebGrease.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.pdb
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csprojAssemblyReference.cache
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CoreCompileInputs.cache
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CopyComplete
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.dll
+E:\HK2_Nam_3\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.pdb
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll.config
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\QLBH_NHOM.pdb
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.exe.config
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csc.rsp
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.exe.config
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\csi.rsp
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.AppContext.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Collections.Immutable.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Console.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Globalization.Calendars.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Http.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Net.Sockets.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Reflection.Metadata.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.ValueTuple.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.exe.config
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\vbc.rsp
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\roslyn\VBCSCompiler.exe.config
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Web.Infrastructure.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Interfaces.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\WebGrease.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\EntityFramework.SqlServer.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\PagedList.Mvc.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Client.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Common.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\ServiceStack.Text.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Buffers.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Memory.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Numerics.Vectors.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Threading.Tasks.Extensions.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Helpers.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Mvc.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Optimization.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.Razor.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Deployment.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\System.Web.WebPages.Razor.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Newtonsoft.Json.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Antlr3.Runtime.pdb
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.AssemblyReference.cache
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CoreCompileInputs.cache
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.csproj.CopyComplete
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.dll
+D:\HK2_3\PTUDWEB\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\QLBH_NHOM\obj\Debug\QLBH_NHOM.pdb

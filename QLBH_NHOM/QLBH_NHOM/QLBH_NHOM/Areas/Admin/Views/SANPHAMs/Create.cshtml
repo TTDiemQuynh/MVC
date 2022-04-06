@@ -1,0 +1,155 @@
+﻿@model QLBH_NHOM.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+
+<style>
+    .user-avatar {
+        width: 100%;
+        height: 200px;
+        border: dashed 1px black;
+    }
+
+        .user-avatar input {
+            margin-top: 80px;
+        }
+
+    textarea {
+        height: 100px;
+        width: 100%;
+    }
+</style>
+<body>
+    <div class="container-fluid px-4">
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Quản lý sản phẩm</li>
+            <li class="breadcrumb-item active">Món ăn</li>
+            <li class="breadcrumb-item active">Thêm mới</li>
+        </ol>
+        @using (Html.BeginForm("Create", "SANPHAMs", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="account-settings text-center">
+                                <div class="user-profile">
+                                    <div class="user-avatar">
+                                        <input type="file" style="height:30px; width:100%" name="ANHMA" required />
+                                        @Html.ValidationMessageFor(model => model.LINK_HINHANH, "", new { @class = "text-danger" })
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h4 class="mb-4 text-primary text-center">NHẬP THÔNG TIN CHI TIẾT</h4>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Mã món ăn: </label>
+                                        <input type="text" value="@ViewBag.MASP" disabled readonly class="form-control" />
+                                       
+                                        @Html.ValidationMessageFor(model => model.MASP, "", new { @class = "text-danger" })
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Tên món ăn: </label>
+
+                                        @Html.EditorFor(model => model.TENSP, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.TENSP, "", new { @class = "text-danger" })
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail">Đơn giá: </label>
+
+                                        @Html.EditorFor(model => model.DONGIA, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.DONGIA, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail">Khuyến mãi: </label>
+
+                                        @Html.EditorFor(model => model.GIAGIAM, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.GIAGIAM, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail">Mô tả: </label>
+
+                                        @Html.TextAreaFor(model => model.MOTA, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.MOTA, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="website">Tình trạng: </label>
+                                        <div class="checkbox text-center">
+                                            Còn bán  @Html.RadioButtonFor(model => model.TINHTRANG, "True", new { @checked = "checked" })&nbsp;
+                                            Hết @Html.RadioButtonFor(model => model.TINHTRANG, "False")
+                                            @Html.ValidationMessageFor(model => model.TINHTRANG, "", new { @class = "text-danger" })
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Nhóm món ăn: </label>
+
+                                        @Html.DropDownList("MANHOM", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.MANHOM, "", new { @class = "text-danger" })
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-center">
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-10">
+                                            <input type="submit" value="Tạo mới" />
+                                            @Html.ActionLink("Trở về", "Index")
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+</body>
+
+

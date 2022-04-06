@@ -1,0 +1,28 @@
+﻿@model QLBH_NHOM.Models.BaseModel
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <style>
+        /*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+                color: #ffffff;
+                background-color: #e7ab3c;
+            }
+
+            .nav-link {
+                color: #e7ab3c;
+            }
+            /*.nav-link:first-child {
+                background-color: #e7ab3c;
+                color: #ffffff;
+            }*/ 
+    </style>
+</head>
+
+<body>
+    <ul class="depart-hover">
+        @foreach (var p in Model.listCate)
+        {
+            <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">@p.TENNHOM</a>
+        }
+    </ul>
+</body>

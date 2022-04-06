@@ -1,0 +1,68 @@
+﻿@model QLBH_NHOM.Models.SANPHAM
+
+@{
+    string ttrang = "";
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+
+<div style="height: 74vh;" class="container-fluid">
+    <h3 style="margin-left:20%">THÔNG TIN CHI TIẾT</h3>
+
+    <table cellpadding="0" cellspacing="0" style="font-size:18px;margin-left:50px;">
+        <tr>
+            <td>
+                <table cellpadding="2" cellspacing="10">
+
+                    <tr>
+                        <td rowspan="8"><img src="~/Content/Images/@Html.DisplayFor(model => model.LINK_HINHANH)" width="300" height="300" style="margin-right:30px" /></td>
+                        <td><b>Mã món ăn:</b></td>
+                        <td>@Html.DisplayFor(model => model.MASP)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tên món ăn:</b></td>
+                        <td>@Html.DisplayFor(model => model.TENSP)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Đơn giá:</b></td>
+                        <td>@Html.DisplayFor(model => model.DONGIA)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Khuyến mãi:</b></td>
+                        <td>@Html.DisplayFor(model => model.DONGIA)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tình trạng:</b></td>
+                        <td>
+                            @{if (Model.TINHTRANG == true)
+                                { ttrang = "Còn bán"; }
+                                else
+                                { ttrang = "Hết"; }
+
+                            }
+                            @ttrang
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Mô tả:</b></td>
+                        <td>@Html.DisplayFor(model => model.MOTA)</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Nhóm sản phẩm:</b></td>
+                        <td>@Html.DisplayFor(model => model.NHOMSANPHAM.TENNHOM)</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p style="margin:20px">
+        @Html.ActionLink("Cập nhật", "Edit", new { id = Model.MASP }) |
+        @Html.ActionLink("Trở về", "Index")
+    </p>
+
+</div>
+
+
+

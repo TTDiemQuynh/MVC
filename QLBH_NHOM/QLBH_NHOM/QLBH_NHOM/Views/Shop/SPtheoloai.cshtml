@@ -1,0 +1,107 @@
+﻿@*@model List<QLBH_NHOM.Models.SANPHAM>*@
+@model QLBH_NHOM.Models.BaseModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <style>
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            color: #ffffff;
+            background-color: #e7ab3c;
+        }
+
+        .nav-link {
+            color: #e7ab3c;
+        }
+
+            .nav-link:hover {
+                color: white;
+                background-color: #e7ab3c;
+            }
+        /*.nav-link:first-child {
+                background-color: #e7ab3c;
+                color: #ffffff;
+            }*/
+
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb Section Begin -->
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Breadcrumb Section Begin -->
+    <!-- Product Shop Section Begin -->
+    <section class="product-shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        @foreach (var p in Model.listCate)
+                        {
+                            <a class="nav-link" id="v-pills-home-tab" href="@Url.Action("SPtheoloai","Shop", new {maloai = p.MANHOM})">@p.TENNHOM</a>
+
+                        }
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-10 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
+                    <div class="product-list">
+                        <div class="row">
+                            @foreach (var pro in Model.listpro)
+                            {
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="product-item">
+                                        <div class="pi-pic">
+                                            <img height="270px" src="~/Content/Images/@pro.LINK_HINHANH" alt="">
+                                            <div class="sale pp-sale">Sale</div>
+                                            <div class="icon">
+                                                <i class="icon_heart_alt"></i>
+                                            </div>
+                                            <ul>
+                                                <li class="w-icon active" data-add-to-cart="@pro.MASP"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                                <li class="quick-view"><a href="/Product/Index/@pro.MASP">Xem Thêm</a></li>
+                                                <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pi-text">
+                                            <div class="catagory-name">@pro.NHOMSANPHAM.TENNHOM</div>
+                                            <a href="#">
+                                                <h6>@pro.TENSP</h6>
+                                            </a>
+                                            <div class="product-price">
+                                                @pro.GIAGIAM
+                                                <span>@pro.DONGIA</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

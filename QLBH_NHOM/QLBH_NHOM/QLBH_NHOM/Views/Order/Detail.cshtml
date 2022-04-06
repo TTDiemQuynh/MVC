@@ -1,0 +1,113 @@
+﻿@model QLBH_NHOM.Models.DONHANG
+
+@{ 
+    try
+    {
+        string hoTen = Session["HoTenKH"].ToString();
+        if (hoTen != null)
+        {
+            ViewBag.KH = hoTen;
+        }
+       
+    }
+    catch
+    {
+
+    }
+}
+<div class="content">
+    <div class="products-agileinfo">
+        <center>
+            <h3 class="tittle" style="padding:20px; color:forestgreen; font-weight: bold">ĐẶT HÀNG THÀNH CÔNG!</h3>
+        </center>
+        <div class="container">
+            <div class="product-agileinfo-grids w3l">
+
+
+                <div class="col-md-9 product-agileinfon-grid1">
+
+                    <h4 style="padding:20px; font-weight: bold">ĐƠN HÀNG</h4>
+
+                    <fieldset>
+
+                        <div class="row">
+                            @Html.HiddenFor(m => m.MAKH)
+                            <div class="form-group col-sm-6">
+                                <label>Khách Hàng</label>
+                                <input type="text" value="@ViewBag.KH" disabled readonly class="form-control" />
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Thanh Toán</label>
+                                @Html.TextBoxFor(m => m.TIEN, new { @class = "form-control", @readonly = true })
+                            </div>
+                           
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label>Ngày Đặt</label>
+                                @Html.TextBoxFor(m => m.NGAYDAT, "{0:dd-MM-yyyy}", new { @class = "form-control", @readonly = true })
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Ngày Nhận</label>
+                                @Html.TextBoxFor(m => m.NGAYGIAO, "{0:dd-MM-yyyy}", new { @class = "form-control nn-date", @readonly = true })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-12">
+                                <label>Địa chỉ nhận</label>
+                                @Html.TextBoxFor(m => m.DIACHIGIAO, new { @class = "form-control", @readonly = true })
+                            </div>
+                            
+                        </div>
+                       
+                    </fieldset>
+
+                    <fieldset>
+                        <h4 style="padding:20px; font-weight: bold">CHI TIẾT ĐƠN HÀNG</h4>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th><strong style="color:mediumvioletred">Tên</strong></th>
+                                    <th><strong style="color:mediumvioletred">Giá</strong></th>
+
+                                    <th><strong style="color:mediumvioletred">Số Lượng</strong></th>
+                                    <th><strong style="color:mediumvioletred">Thành Tiền</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var detail in Model.CHITIET_DONHANG)
+                                {
+                                    <tr>
+                                        <td><strong style="color:black">@detail.SANPHAM.TENSP</strong></td>
+                                        <td>
+                                            <strong style="color:black">
+                                                @String.Format("{0:0,0}", detail.DH_GIABAN)
+                                            </strong>
+                                        </td>
+                                        <td><strong style="color:black">@detail.DH_SOLUONG</strong></td>
+                                        <td>
+                                            <strong style="color:black">
+                                                @String.Format("{0:0,0}", (detail.DH_SOLUONG * detail.DH_GIABAN)) đ
+                                            </strong>
+                                        </td>
+
+                                    </tr>
+                                }
+                                <tr>
+                                    <th colspan="4" style="text-align:right"><strong style="color:red">Thanh Toán:</strong></th>
+                                    <th style="color:black">
+                                        <center>
+                                            @String.Format("{0:0,0}", Model.CHITIET_DONHANG.Sum(b => b.DH_SOLUONG * b.DH_GIABAN)) đ
+                                        </center>
+                                    </th>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,30 @@
+﻿@model QLBH_NHOM.Models.NHOMSANPHAM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NHOMSANPHAM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TENNHOM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENNHOM)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MANHOM }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
+

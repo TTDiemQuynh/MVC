@@ -1,0 +1,71 @@
+﻿@model QLBH_NHOM.Models.NHOMSANPHAM
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+<body>
+    <div class="container-fluid px-4">
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Quản lý sản phẩm</li>
+            <li class="breadcrumb-item active">Nhóm món ăn</li>
+            <li class="breadcrumb-item active">Xóa</li>
+        </ol>
+
+        <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h4 class="mb-4 text-primary text-center">BẠN CÓ CHẮC MUỐN XÓA?</h4>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="fullName">Mã nhóm món ăn: </label>
+                                    <h4>@Html.DisplayFor(model => model.MANHOM)</h4>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="fullName">Tên nhóm món ăn: </label>
+                                    <h4>@Html.DisplayFor(model => model.TENNHOM)</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="text-center">
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-12">
+                                        @using (Html.BeginForm())
+                                        {
+                                            @Html.AntiForgeryToken()
+
+                                            <div class="form-actions no-color">
+                                                <input type="submit" value="Xóa" class="btn btn-default" /> |
+                                                @Html.ActionLink("Trở về", "Index")
+                                            </div>
+                                        }
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+

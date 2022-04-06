@@ -1,0 +1,126 @@
+﻿@model QLBH_NHOM.Models.DONHANG
+    @{
+        try
+        {
+            string hoTen = Session["HoTenKH"].ToString();
+            if (hoTen != null)
+            {
+                ViewBag.NguoiDung = hoTen;
+            }
+            else
+            {
+                ViewBag.NguoiDung = "Chưa đn";
+            }
+
+        }
+        catch
+        {
+
+        }
+}
+<div class="content">
+    <div class="products-agileinfo">
+        <div class="container">
+            <div class="product-agileinfo-grids w3l">
+
+                <div class="col-md-9 product-agileinfon-grid1">
+                    <center>
+                        <h2 style="margin-top:30px">
+                            Sản Phẩm Đã Mua
+                        </h2>
+                    </center>
+                    @Html.ValidationSummary(true)
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><strong style="color:red">Tên</strong></th>
+                                <th><strong style="color:red">Giá</strong></th>
+                                <th><strong style="color:red">Số Lượng</strong></th>
+                                <th><strong style="color:red">Thành Tiền</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var p in ShoppingCart.Cart.Items)
+                            {
+                                <tr>
+                                    <td><p><strong style="color:orange">@p.TENSP</strong></p></td>
+                                    <td>
+                                        <strong style="color:orange">
+                                            @String.Format("{0:0,0}", p.GIAGIAM)
+                                        </strong>
+                                    </td>
+                                    <td><strong style="color:orange">@p.SOLUONG</strong></td>
+                                    <td>
+                                        <strong style="color:orange">
+                                            @String.Format("{0:0,0}", (p.SOLUONG * p.GIAGIAM)) đ
+                                        </strong>
+                                    </td>
+                                </tr>
+                            }
+                            <tr>
+                                <td colspan="4" style="text-align:right">
+                                    <strong style="color:red">Thanh Toán :</strong>
+                                </td>
+                                <td style="color:black">
+                                    <center>
+                                        @String.Format("{0:0,0}", ShoppingCart.Cart.Amount) đ
+                                    </center>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <center>
+                        <h2>Thông tin Đơn Hàng</h2>
+                    </center>
+                    @using (Html.BeginForm("Checkout", "Order", FormMethod.Post))
+                    {
+                        <div class="row">
+                            @Html.HiddenFor(m => m.MAKH)
+                            @Html.HiddenFor(m=>m.MADON)
+                            
+                            <div class="form-group col-sm-6">
+                                <label>Khách Hàng</label>
+                                <input type="text" value="@ViewBag.TenKH" disabled readonly class="form-control" />
+                               
+
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Ngày Đặt</label>
+                                @Html.TextBoxFor(m => m.NGAYDAT, "{0:dd-MM-yyyy}", new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label>Ngày giao dự kiến</label>
+                                @Html.TextBoxFor(m => m.NGAYGIAO, "{0:dd-MM-yyyy}", new { @class = "form-control nn-date", @readonly = true })
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Thành Tiền</label>
+                                @Html.TextBoxFor(m => m.TIEN, new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="form-group col-sm-12">
+                                <label>Vui Lòng Điền Địa Chỉ</label>
+                                @Html.TextBoxFor(m => m.DIACHIGIAO, new { @class = "form-control" })
+
+                            </div>
+                        </div>
+                    
+
+
+                        <center>
+                            <button type="submit" style="margin-bottom:50px" class="site-btn register-btn">ĐẶT HÀNG NGAY</button>
+                        </center>
+                    }
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

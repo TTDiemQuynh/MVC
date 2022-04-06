@@ -1,0 +1,170 @@
+﻿
+@model QLBH_NHOM.Models.NHANVIEN
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <div class="container-fluid px-4">
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Quản lý người dùng</li>
+            <li class="breadcrumb-item active">Nhân viên</li>
+            <li class="breadcrumb-item active">Xóa</li>
+        </ol>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="account-settings text-center">
+                            <div class="user-profile">
+                                <div class="user-avatar">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" width="150px" alt="Maxwell Admin">
+                                </div>
+                                <h6 class="user-name mt-4">@Html.DisplayFor(model => model.MANV)</h6>
+                                <h6>@Html.DisplayFor(model => model.HOTENNV)</h6>
+                            </div>
+                            <div>
+                                <p>
+                                    Nghiệp vụ:
+                                    <b>
+                                        @{if (Model.QUYENNV == 1)
+                                            { <span>Admin</span> }
+                                            else if (Model.QUYENNV == 2)
+                                            { <span>Duyệt đơn</span> }
+                                            else
+                                            { <span>Giao hàng</span> }
+                                        }
+                                    </b>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h4 class="mb-4 text-primary text-center">BẠN CÓ CHẮC MUỐN XÓA?</h4>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="fullName">Mã nhân viên: </label>
+                                    <b> @Html.DisplayFor(model => model.MANV)</b>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="fullName">Họ tên nhân viên: </label>
+                                    <b>@Html.DisplayFor(model => model.HOTENNV)</b>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="website">Giới tính: </label>
+                                    <b>
+                                        @{if (Model.GIOITINH == true)
+                                            { <span>Nam</span> }
+                                            else
+                                            { <span>Nữ</span> }
+
+                                        }
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="eMail">Email: </label>
+                                    <b>@Html.DisplayFor(model => model.EMAIL_NV)</b>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="phone">Số điện thoại: </label>
+                                    <b>@Html.DisplayFor(model => model.SDT)</b>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="phone">Nghiệp vụ: </label>
+                                    <b>
+                                        @{if (Model.QUYENNV == 1)
+                                            { <span>Admin</span> }
+                                            else if (Model.QUYENNV == 2)
+                                            { <span>Duyệt đơn</span> }
+                                            else
+                                            {
+                                                <span>Giao hàng</span>
+                                            }
+
+                                        }
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="phone">Tên đăng nhập: </label>
+                                    <b>@Html.DisplayFor(model => model.TENDANGNHAP)</b>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="phone">Mật khẩu: </label>
+                                    <b>*********</b>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-center">
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-10">
+                                            @using (Html.BeginForm())
+                                            {
+                                                @Html.AntiForgeryToken()
+
+                                                <div class="form-actions no-color">
+                                                    <input type="submit" value="Xóa" class="btn btn-default" /> |
+                                                    @Html.ActionLink("Trở về", "Index")
+                                                </div>
+                                            }
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+

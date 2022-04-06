@@ -1,0 +1,86 @@
+﻿@model QLBH_NHOM.Models.SANPHAM
+
+<html lang="zxx">
+
+
+<body>
+    
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <section class="product-shop spad page-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="product-pic-zoom">
+                                <img height="400px" src="~/Content/Images/@Model.LINK_HINHANH" alt="">
+                                <div class="zoom-icon">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="product-details">
+                                <div class="pd-title">
+                                    <span>@Model.NHOMSANPHAM.TENNHOM</span>
+                                    <h3>@Model.TENSP</h3>
+                                    <h5>@Model.MOTA</h5>
+                                    <a href="#" class="heart-icon"><i class="icon_heart_alt"></i></a>
+                                </div>
+                                <div class="pd-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <span>(5)</span>
+                                </div>
+                                <div class="pd-desc">
+                                       
+                                        <h4>
+                                            @String.Format("{0:0,0}", @Model.GIAGIAM)
+                                            đ<span>
+
+                                                @String.Format("{0:0,0}", @Model.DONGIA) đ
+                                            </span>
+                                        </h4>
+                                    </div>
+
+                                <div class="quantity">
+                                   <button class="primary-btn pd-cart" data-add-to-cart="@Model.MASP">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+                                <div class="pd-share">
+                                    <div class="pd-social">
+                                        <a href="#"><i class="ti-facebook"></i></a>
+                                        <a href="#"><i class="ti-twitter-alt"></i></a>
+                                        <a href="#"><i class="ti-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bd30b0c824594e8d8c57f3471b78033e" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBH_NHOMModel.CHITIET_DONHANG" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.DANHGIA" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.DONHANG" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.GIAMGIA" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.NHANVIEN" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.NHOMSANPHAM" Width="1.5" PointX="1.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.SANPHAM" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_NHOMModel.TINHTRANGDON" Width="1.5" PointX="3.75" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="QLBH_NHOMModel.MADON_CTDH_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MASP_CTDH_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MAKH_DG_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MASP_DG_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MAKH_DH_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MANV_DH_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MANVGIAO_DH_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.TINHTRANG_DH_TT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MASP_GG_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_NHOMModel.MANHOM_SP_FK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

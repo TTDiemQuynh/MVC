@@ -1,0 +1,129 @@
+﻿@model QLBH_NHOM.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+                    $(function ()
+                    {
+                        var fileupload = $("#Avatar");
+                        var image = $("#FileUpload");
+                        image.click(function ()
+                        {
+                            fileupload.click();
+                        });
+                        fileupload.change(function ()
+                        {
+                            var fileName = $(this).val().split('\\')[$(this).val().split('\\').length - 1];
+                            document.getElementById("ANHMA").value=fileName;
+                        });
+                    });
+    </script>
+
+}
+<style>
+    textarea {
+        width: 425px;
+        height: 100px;
+    }
+</style>
+<div class="container-fluid" style="margin-left:50px">
+    <h4 style="text-align:center;font-weight:bold">Cập nhật thông tin sản phẩm</h4>
+    <hr />
+    <div class="row">
+
+        <div class="col-md-6">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.MASP)
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MANHOM, "MANHOM", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("MANHOM", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.MANHOM, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TENSP, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.TENSP, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.TENSP, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DONGIA, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.DONGIA, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DONGIA, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.GIAGIAM, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.GIAGIAM, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.GIAGIAM, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.LINK_HINHANH, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.LINK_HINHANH, new { htmlAttributes = new { @class = "form-control", @id = "ANHMA" } })
+                            <input type="file" id="Avatar" style="height:30px; margin-top:5px" name="ANHMA" />
+                            @Html.ValidationMessageFor(model => model.LINK_HINHANH, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TINHTRANG, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            <div class="checkbox">
+                                Còn hàng @Html.RadioButtonFor(model => model.TINHTRANG, "True", new { @checked = "checked" }) &nbsp;
+                                Hết hàng @Html.RadioButtonFor(model => model.TINHTRANG, "False")
+                                @Html.ValidationMessageFor(model => model.TINHTRANG, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MOTA, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(model => model.MOTA, new { htmlAttributes = new { @class = "form-control" } })
+
+                            @Html.ValidationMessageFor(model => model.MOTA, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Lưu lại" class="btn btn-default" />
+                            @Html.ActionLink("Trở về", "Index")
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="col-md-6" style="text-align:left">
+            <img src="~/Content/Images/@Html.DisplayFor(model => model.LINK_HINHANH)" width="400" height="400" />
+        </div>
+    </div>
+
+
+</div>
+
+

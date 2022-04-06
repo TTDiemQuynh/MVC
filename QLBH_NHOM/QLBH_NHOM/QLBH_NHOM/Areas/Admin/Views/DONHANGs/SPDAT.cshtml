@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<fieldset>
+    <h5>Sản phẩm đã đặt</h5>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th><strong style="color:mediumvioletred">Tên</strong></th>
+                <th><strong style="color:mediumvioletred">Giá</strong></th>
+
+                <th><strong style="color:mediumvioletred">Số Lượng</strong></th>
+                <th><strong style="color:mediumvioletred">Thành Tiền</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detail in Model.CHITIET_DONHANG)
+            {
+                <tr>
+                    <td><strong style="color:black">@detail.SANPHAM.TENSP</strong></td>
+                    <td>
+                        <strong style="color:black">
+                            @String.Format("{0:0,0}", detail.DH_GIABAN)
+                        </strong>
+                    </td>
+                    <td><strong style="color:black">@detail.DH_SOLUONG</strong></td>
+                    <td>
+                        <strong style="color:black">
+                            @String.Format("{0:0,0}", (detail.DH_SOLUONG * detail.DH_GIABAN)) đ
+                        </strong>
+                    </td>
+
+                </tr>
+               
+            }
+
+        </tbody>
+    </table>
+</fieldset>

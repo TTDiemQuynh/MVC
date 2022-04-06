@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+}
+<style>
+    h6{
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+</style>
+<body>
+
+    <!-- Breadcrumb Section Begin -->
+    @Html.ValidationSummary(true)
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <!-- Register Section Begin -->
+        <div class="register-login-section spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="login-form">
+                            <h2>ĐĂNG KÝ</h2>
+                        <form action="#" method="post">
+                            
+                            <h6>Tên khách hàng</h6>
+                            <div class="key">
+                                <input type="text" name="tenKH" class="form-control">
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Giới tính</h6>
+                            <div class="key" style="text-align: center">
+                                <label>Nam</label> &nbsp;<input type="radio" name="gTinh" value="true" group="gtinh" checked style="margin-right:30px">
+                                <label>Nữ</label> &nbsp;<input type="radio" name="gTinh" value="false" group="gtinh">
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Email</h6>
+                            <div class="key">
+                                <input type="text" name="emailKH" class="form-control" >
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Số điện thoại</h6>
+                            <div class="key">
+                                <input type="text" name="sDT" class="form-control" >
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Địa chỉ</h6>
+                            <div class="key">
+                                <input type="text" name="diaChi" class="form-control" >
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Tên đăng nhập</h6>
+                            <div class="key">
+                                <input type="text" name="tenDangNhap" class="form-control" >
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Mật khẩu</h6>
+                            <div class="key">
+                                <input type="password" name="password" class="form-control">
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Nhập lại mật khẩu</h6>
+                            <div class="key">
+                                <input type="password" name="repassword" class="form-control" >
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>
+
+                                </label>
+                            </div>
+                            <center>
+                                <button type="submit" class="site-btn login-btn">Đăng Ký</button>
+                            </center>
+
+
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }   <!-- Register Form Section End -->
+</body>
+
+

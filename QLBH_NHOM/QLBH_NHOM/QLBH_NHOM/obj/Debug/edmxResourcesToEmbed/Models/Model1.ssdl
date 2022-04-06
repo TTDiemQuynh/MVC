@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBH_NHOMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHITIET_DONHANG">
+    <Key>
+      <PropertyRef Name="MADON" />
+      <PropertyRef Name="MASP" />
+    </Key>
+    <Property Name="MADON" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MASP" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="DH_SOLUONG" Type="tinyint" />
+    <Property Name="DH_GIABAN" Type="int" />
+  </EntityType>
+  <EntityType Name="DANHGIA">
+    <Key>
+      <PropertyRef Name="MADANHGIA" />
+    </Key>
+    <Property Name="MADANHGIA" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MASP" Type="varchar" MaxLength="6" />
+    <Property Name="MAKH" Type="varchar" MaxLength="20" />
+    <Property Name="SOSAODANHGIA" Type="tinyint" />
+    <Property Name="NGAYDANHGIA" Type="date" />
+    <Property Name="CHITIETDANHGIA" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="DONHANG">
+    <Key>
+      <PropertyRef Name="MADON" />
+    </Key>
+    <Property Name="MADON" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MAKH" Type="varchar" MaxLength="20" />
+    <Property Name="MANV_DUYET" Type="varchar" MaxLength="20" />
+    <Property Name="MANV_GIAO" Type="varchar" MaxLength="20" />
+    <Property Name="NGAYDAT" Type="date" />
+    <Property Name="NGAYGIAO" Type="date" />
+    <Property Name="DIACHIGIAO" Type="nvarchar" MaxLength="200" />
+    <Property Name="TINHTRANG" Type="varchar" MaxLength="2" />
+    <Property Name="TIEN" Type="int" />
+  </EntityType>
+  <EntityType Name="GIAMGIA">
+    <Key>
+      <PropertyRef Name="MAGIAMGIA" />
+    </Key>
+    <Property Name="MAGIAMGIA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="MASP" Type="varchar" MaxLength="6" />
+    <Property Name="PHANTRAMGIAM" Type="tinyint" />
+    <Property Name="NGAYAPDUNG" Type="date" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="MAKH" />
+    </Key>
+    <Property Name="MAKH" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="TENKH" Type="nvarchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="bit" />
+    <Property Name="EMAIL_KH" Type="varchar" MaxLength="100" />
+    <Property Name="SDT" Type="varchar" MaxLength="11" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="200" />
+    <Property Name="TENDANGNHAP" Type="varchar" MaxLength="50" />
+    <Property Name="MATKHAU" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MANV" />
+    </Key>
+    <Property Name="MANV" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="HOTENNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="bit" />
+    <Property Name="EMAIL_NV" Type="varchar" MaxLength="100" />
+    <Property Name="SDT" Type="varchar" MaxLength="11" />
+    <Property Name="QUYENNV" Type="int" />
+    <Property Name="TENDANGNHAP" Type="varchar" MaxLength="50" />
+    <Property Name="MATKHAU" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NHOMSANPHAM">
+    <Key>
+      <PropertyRef Name="MANHOM" />
+    </Key>
+    <Property Name="MANHOM" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="TENNHOM" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="SANPHAM">
+    <Key>
+      <PropertyRef Name="MASP" />
+    </Key>
+    <Property Name="MASP" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MANHOM" Type="varchar" MaxLength="6" />
+    <Property Name="TENSP" Type="nvarchar" MaxLength="50" />
+    <Property Name="DONGIA" Type="int" />
+    <Property Name="GIAGIAM" Type="int" />
+    <Property Name="MOTA" Type="nvarchar" MaxLength="300" />
+    <Property Name="TINHTRANG" Type="bit" />
+    <Property Name="LINK_HINHANH" Type="varchar" MaxLength="100" />
+    <Property Name="SOLUONG" Type="int" />
+  </EntityType>
+  <EntityType Name="TINHTRANGDON">
+    <Key>
+      <PropertyRef Name="TINHTRANG" />
+    </Key>
+    <Property Name="TINHTRANG" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="MOTA" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="MADON_CTDH_FK">
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="1" />
+    <End Role="CHITIET_DONHANG" Type="Self.CHITIET_DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONHANG">
+        <PropertyRef Name="MADON" />
+      </Principal>
+      <Dependent Role="CHITIET_DONHANG">
+        <PropertyRef Name="MADON" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MAKH_DG_FK">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="DANHGIA" Type="Self.DANHGIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKH" />
+      </Principal>
+      <Dependent Role="DANHGIA">
+        <PropertyRef Name="MAKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MAKH_DH_FK">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKH" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="MAKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MANHOM_SP_FK">
+    <End Role="NHOMSANPHAM" Type="Self.NHOMSANPHAM" Multiplicity="0..1" />
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHOMSANPHAM">
+        <PropertyRef Name="MANHOM" />
+      </Principal>
+      <Dependent Role="SANPHAM">
+        <PropertyRef Name="MANHOM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MANV_DH_NV">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="MANV_DUYET" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MANVGIAO_DH_NV">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="MANV_GIAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MASP_CTDH_FK">
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="1" />
+    <End Role="CHITIET_DONHANG" Type="Self.CHITIET_DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANPHAM">
+        <PropertyRef Name="MASP" />
+      </Principal>
+      <Dependent Role="CHITIET_DONHANG">
+        <PropertyRef Name="MASP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MASP_DG_FK">
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="0..1" />
+    <End Role="DANHGIA" Type="Self.DANHGIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANPHAM">
+        <PropertyRef Name="MASP" />
+      </Principal>
+      <Dependent Role="DANHGIA">
+        <PropertyRef Name="MASP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MASP_GG_FK">
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="0..1" />
+    <End Role="GIAMGIA" Type="Self.GIAMGIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANPHAM">
+        <PropertyRef Name="MASP" />
+      </Principal>
+      <Dependent Role="GIAMGIA">
+        <PropertyRef Name="MASP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TINHTRANG_DH_TT">
+    <End Role="TINHTRANGDON" Type="Self.TINHTRANGDON" Multiplicity="0..1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TINHTRANGDON">
+        <PropertyRef Name="TINHTRANG" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="TINHTRANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLBH_NHOMModelStoreContainer">
+    <EntitySet Name="CHITIET_DONHANG" EntityType="Self.CHITIET_DONHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DANHGIA" EntityType="Self.DANHGIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONHANG" EntityType="Self.DONHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GIAMGIA" EntityType="Self.GIAMGIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHACHHANG" EntityType="Self.KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHOMSANPHAM" EntityType="Self.NHOMSANPHAM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SANPHAM" EntityType="Self.SANPHAM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TINHTRANGDON" EntityType="Self.TINHTRANGDON" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="MADON_CTDH_FK" Association="Self.MADON_CTDH_FK">
+      <End Role="DONHANG" EntitySet="DONHANG" />
+      <End Role="CHITIET_DONHANG" EntitySet="CHITIET_DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="MAKH_DG_FK" Association="Self.MAKH_DG_FK">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="DANHGIA" EntitySet="DANHGIA" />
+    </AssociationSet>
+    <AssociationSet Name="MAKH_DH_FK" Association="Self.MAKH_DH_FK">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="MANHOM_SP_FK" Association="Self.MANHOM_SP_FK">
+      <End Role="NHOMSANPHAM" EntitySet="NHOMSANPHAM" />
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+    </AssociationSet>
+    <AssociationSet Name="MANV_DH_NV" Association="Self.MANV_DH_NV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="MANVGIAO_DH_NV" Association="Self.MANVGIAO_DH_NV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="MASP_CTDH_FK" Association="Self.MASP_CTDH_FK">
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+      <End Role="CHITIET_DONHANG" EntitySet="CHITIET_DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="MASP_DG_FK" Association="Self.MASP_DG_FK">
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+      <End Role="DANHGIA" EntitySet="DANHGIA" />
+    </AssociationSet>
+    <AssociationSet Name="MASP_GG_FK" Association="Self.MASP_GG_FK">
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+      <End Role="GIAMGIA" EntitySet="GIAMGIA" />
+    </AssociationSet>
+    <AssociationSet Name="TINHTRANG_DH_TT" Association="Self.TINHTRANG_DH_TT">
+      <End Role="TINHTRANGDON" EntitySet="TINHTRANGDON" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

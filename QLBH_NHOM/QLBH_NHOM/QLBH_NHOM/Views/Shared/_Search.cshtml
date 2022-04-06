@@ -1,0 +1,14 @@
+﻿<div class="col-lg-7 col-md-7">
+    <div class="advanced-search">
+        <button type="button" class="category-btn">Bạn Cần Gì??? </button>
+        <div class="input-group">
+            @using (Html.BeginForm("Search", "Shop"))
+            {
+                <form action="#" method="post">
+                    <input name="tuKhoa" type="text" placeholder="Nhập Vào Đây..." />
+                    <button type="submit"><i class="ti-search"></i></button>
+                </form>
+            }
+        </div>
+    </div>
+</div>

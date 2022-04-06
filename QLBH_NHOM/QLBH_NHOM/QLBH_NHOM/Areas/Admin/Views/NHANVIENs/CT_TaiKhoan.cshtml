@@ -1,0 +1,163 @@
+﻿@model QLBH_NHOM.Models.NHANVIEN
+@{
+    ViewBag.Title = "CT_TaiKhoan";
+    Layout = "~/Areas/Admin/Views/Shared/ViewAdminChung.cshtml";
+}
+
+<style>
+    .title {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    i {
+        margin-right: 5px;
+        display: block;
+        width: 15px;
+    }
+</style>
+
+
+<div class="container-fluid px-4">
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Tài khoản</li>
+
+    </ol>
+    <h4 class="pb-4 title">THÔNG TIN CHI TIẾT TÀI KHOẢN</h4>
+
+
+    <div class="row">
+        <div class="col-lg-4 col-md-5 xs-margin-30px-bottom">
+            <div class="text-center p-2">
+                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle" width="150px" alt="">
+            </div>
+            <div class="bg-light-gray padding-30px-all md-padding-25px-all sm-padding-20px-all text-center">
+                <h6 class="mt-1 font-size24 md-font-size22 sm-font-size20 font-weight-600">Mã nhân viên:  @Html.DisplayFor(model => model.MANV)</h6>
+                <h6 class="mt-1 font-size24 md-font-size22 sm-font-size20 font-weight-600">
+                    Nghiệp vụ:  @{if (Model.QUYENNV == 1)
+                        { <span>Admin</span> }
+                        else if (Model.QUYENNV == 2)
+                        { <span>Duyệt đơn</span> }
+                        else
+                        { <span>Giao hàng</span> }
+                    }
+
+                </h6>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-7">
+            <div class=" padding-50px-left sm-no-padding-left">
+
+
+                <div class="margin-40px-tb">
+                    <ul class="no-margin list-unstyled">
+                        <li>
+
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-user-tag "></i>
+                                    <strong class="margin-10px-left">Tên nhân viên:</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+                                    <p> @Html.DisplayFor(model => model.HOTENNV)</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-venus-mars "></i>
+                                    <strong class="margin-10px-left ">Giới tính:</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+
+                                    @{if (Model.GIOITINH == true)
+                                        { <p>Nam</p>}
+                                        else
+                                        { <p>Nữ</p> }
+                                    }
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-envelope "></i>
+                                    <strong class="margin-10px-left xs-margin-four-left">Email:</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+                                    <p></a>@Html.DisplayFor(model => model.EMAIL_NV)</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-phone-square "></i>
+                                    <strong class="margin-10px-left xs-margin-four-left ">Phone:</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+                                    <p>@Html.DisplayFor(model => model.SDT)</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-file-signature"></i>
+                                    <strong class="margin-10px-left ">Tên đăng nhập</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+                                    <p>@Html.DisplayFor(model => model.TENDANGNHAP)</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+
+                            <div class="row">
+                                <div class="col-md-5 col-5">
+                                    <i class="fas fa-unlock-alt "></i>
+
+                                    <strong class="margin-10px-left ">Mật khẩu</strong>
+                                </div>
+                                <div class="col-md-7 col-7">
+
+                                    <p>@ViewBag.MK</p>
+                                </div>
+                            </div>
+
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <p>
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MANV }) |
+        @Html.ActionLink("Trở về", "../HOMEs/Intro")
+    </p>
+</div>
+
+
+
+
